@@ -81,7 +81,7 @@ h3 {
     margin-left: 15%;
 }
 
-.box {
+.box { 
     padding: 1%;
 }
 
@@ -93,7 +93,7 @@ h3 {
 /*icons*/
 
 .icon-big {
-    font-size: 400%;
+    font-size: 350%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
@@ -183,7 +183,7 @@ header {
     margin-top: 20px;
 }
 
-.main-nav {
+ul.main-nav {
     float: right;
     list-style: none;
     margin-top: 55px;
@@ -209,3 +209,36 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+
+/*-----------------------------*/
+
+
+/* MEALS */
+
+
+/*-----------------------------*/
+
+ul.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+ul.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+figure.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+
+figure.meal-photo img {
+    width: 100%;
+    height: auto;
+}
+
+
