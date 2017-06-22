@@ -81,7 +81,7 @@ h3 {
     margin-left: 15%;
 }
 
-.box { 
+.box {
     padding: 1%;
 }
 
@@ -89,6 +89,7 @@ h3 {
     font-size: 90%;
     line-height: 145%;
 }
+
 
 /*icons*/
 
@@ -214,10 +215,28 @@ ul.main-nav {
 /*-----------------------------*/
 
 
+/* FEATURES */
+
+
+/*-----------------------------*/
+
+
+.section-features  p.long-copy{
+    margin-bottom: 30px;
+}
+
+
+/*-----------------------------*/
+
+
 /* MEALS */
 
 
 /*-----------------------------*/
+
+.section-meals {
+    padding: 0;
+}
 
 ul.meals-showcase {
     list-style: none;
@@ -233,12 +252,20 @@ ul.meals-showcase li {
 figure.meal-photo {
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background: #000;
 }
-
 
 figure.meal-photo img {
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    transform: scale(1.5);
+    transition: transform 0.5s, opacity 0.5s
 }
 
 
+figure.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
